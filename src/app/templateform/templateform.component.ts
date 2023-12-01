@@ -15,6 +15,7 @@ export class TemplateformComponent implements OnInit {
   
   Register(reData:NgForm){
     console.log(reData.value);
+    console.log(reData.valid);
     
   }
   // Register(){}

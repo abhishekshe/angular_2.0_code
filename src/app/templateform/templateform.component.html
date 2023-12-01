@@ -2,13 +2,13 @@
 <div>
     <form #regData="ngForm" (ngSubmit)="Register(regData)">
         <div>
-            First name : <input type="text" placeholder="enter name" name="firstname" ngModel>
+            First name : <input type="text" placeholder="enter name" required name="firstname" ngModel>
         </div>
         <div>
-            Last name : <input type="text" placeholder="enter name" name="lastname" ngModel>
+            Last name : <input type="text" placeholder="enter name" required name="lastname" ngModel>
         </div>
         <div>
-            Email : <input type="text" placeholder="enter name" name="email" ngModel>
+            Email : <input type="text" placeholder="enter name" required name="email" ngModel>
        </div>
         <div>
             <input type="submit" value="Regsiter" /> 
